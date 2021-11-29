@@ -1,0 +1,35 @@
+{
+    "name": "@tripcloud/ares-agent",
+    "version": "1.0.0",
+    "description": "Ares API used in business applications.",
+    "main": "normal",
+    "types": "i18n/index.d.ts",
+    "scripts": {
+        "test": "mocha --exit",
+        "test.qate": "mocha test.qate --exit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/feifeipan/tripcloud.ares-agent.git"
+    },
+    "keywords": [
+        "ARES"
+    ],
+    "engines": {
+        "node": ">=8"
+    },
+    "author": "jiangjing@ctrip.com, ffpan@ctrip.com",
+    "license": "ISC",
+    "dependencies": {
+        "@tripcloud/ares-util": "^1.0.0",
+        "cookie": "^0.4.0",
+        "htp": "^0.11.0",
+        "if2": "^0.2.0",
+        "noda": "^0.5.0"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "eslint": "^8.3.0",
+        "mocha": "^6.0.2"
+    }
+}
